@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLama.SKAutoGen", "LLama.SKAutoGen\LLama.SKAutoGen.csproj", "{13C010EE-6EE2-4BA1-8672-28154B68CCF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{612A73FF-1E42-4442-9F58-1BEC0187A471}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLama.RAG", "LLama.RAG\LLama.RAG.csproj", "{46CA8F31-5D92-424D-8F6C-1CBD83933673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLama.SKPlugin", "LLama.SKPlugin\LLama.SKPlugin.csproj", "{0F2D22C8-8788-4EA4-B837-2AB8A79FCF46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLama.SimpleChat", "LLama.SimpleChat\LLama.SimpleChat.csproj", "{5F459951-EAE3-4074-80ED-9F813B6AB8A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13C010EE-6EE2-4BA1-8672-28154B68CCF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C010EE-6EE2-4BA1-8672-28154B68CCF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C010EE-6EE2-4BA1-8672-28154B68CCF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C010EE-6EE2-4BA1-8672-28154B68CCF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46CA8F31-5D92-424D-8F6C-1CBD83933673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46CA8F31-5D92-424D-8F6C-1CBD83933673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46CA8F31-5D92-424D-8F6C-1CBD83933673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46CA8F31-5D92-424D-8F6C-1CBD83933673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2D22C8-8788-4EA4-B837-2AB8A79FCF46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2D22C8-8788-4EA4-B837-2AB8A79FCF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2D22C8-8788-4EA4-B837-2AB8A79FCF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2D22C8-8788-4EA4-B837-2AB8A79FCF46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F459951-EAE3-4074-80ED-9F813B6AB8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F459951-EAE3-4074-80ED-9F813B6AB8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F459951-EAE3-4074-80ED-9F813B6AB8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F459951-EAE3-4074-80ED-9F813B6AB8A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41CC9842-D497-483D-B99C-6357022651F6}
+	EndGlobalSection
+EndGlobal
