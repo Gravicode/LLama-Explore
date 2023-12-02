@@ -10,11 +10,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLama.RAG", "LLama.RAG\LLama.RAG.csproj", "{46CA8F31-5D92-424D-8F6C-1CBD83933673}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LLama.RAG", "LLama.RAG\LLama.RAG.csproj", "{46CA8F31-5D92-424D-8F6C-1CBD83933673}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLama.SKPlugin", "LLama.SKPlugin\LLama.SKPlugin.csproj", "{0F2D22C8-8788-4EA4-B837-2AB8A79FCF46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LLama.SKPlugin", "LLama.SKPlugin\LLama.SKPlugin.csproj", "{0F2D22C8-8788-4EA4-B837-2AB8A79FCF46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LLama.SimpleChat", "LLama.SimpleChat\LLama.SimpleChat.csproj", "{5F459951-EAE3-4074-80ED-9F813B6AB8A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LLama.SimpleChat", "LLama.SimpleChat\LLama.SimpleChat.csproj", "{5F459951-EAE3-4074-80ED-9F813B6AB8A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LLama.KernelMemory", "LLama.KernelMemory\LLama.KernelMemory.csproj", "{3FB2EFB9-14EC-4180-8CFA-F9E1AB3F30F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{1CAAF068-E5D6-4AF0-A895-00AD805D70CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SKHandleBars", "SKHandleBars\SKHandleBars.csproj", "{B0153282-D720-41A1-A34B-F76EDA673D5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,9 +44,20 @@ Global
 		{5F459951-EAE3-4074-80ED-9F813B6AB8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F459951-EAE3-4074-80ED-9F813B6AB8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F459951-EAE3-4074-80ED-9F813B6AB8A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB2EFB9-14EC-4180-8CFA-F9E1AB3F30F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB2EFB9-14EC-4180-8CFA-F9E1AB3F30F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB2EFB9-14EC-4180-8CFA-F9E1AB3F30F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB2EFB9-14EC-4180-8CFA-F9E1AB3F30F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0153282-D720-41A1-A34B-F76EDA673D5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0153282-D720-41A1-A34B-F76EDA673D5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0153282-D720-41A1-A34B-F76EDA673D5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0153282-D720-41A1-A34B-F76EDA673D5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0153282-D720-41A1-A34B-F76EDA673D5F} = {1CAAF068-E5D6-4AF0-A895-00AD805D70CC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41CC9842-D497-483D-B99C-6357022651F6}

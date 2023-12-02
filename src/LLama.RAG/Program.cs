@@ -158,9 +158,6 @@ namespace LLama.RAG
         double TopP { set; get; }
 
         Dictionary<string, ISKFunction> ListFunctions = new Dictionary<string, ISKFunction>();
-
-        IKernel kernel { set; get; }
-
         Microsoft.SemanticKernel.AI.ChatCompletion.ChatHistory chatHistory { set; get; }
 
         LLamaSharpChatCompletion chatGPT { set; get; }
@@ -172,27 +169,17 @@ namespace LLama.RAG
             var model = LLamaWeights.LoadFromFile(parameters);
             var context = model.CreateContext(parameters);
             var ex = new InteractiveExecutor(context);
-
             chatGPT = new LLamaSharpChatCompletion(ex);
-
             chatHistory = chatGPT.CreateNewChat("Kamu adalah assistant digital BRI bernama Sabrina, kamu dapat menjawab semua pertanyaan terkait produk dan pelayanan Bank BRI, kamu menjawab dengan ramah, sopan, dan professional.");
-
-          
         }
 
        
 
         public async Task<string> Ask(string input)
         {
-            string Result = string.Empty;
-
             try
             {
-                //Console.WriteLine("Chat content:");
-                //Console.WriteLine("------------------------");
-
                 chatHistory.AddUserMessage(input);
-                // First bot assistant message
                 string reply = await chatGPT.GenerateMessageAsync(chatHistory);
                 chatHistory.AddAssistantMessage(reply);
                 return reply;
@@ -206,7 +193,6 @@ namespace LLama.RAG
             {
 
             }
-            //return Result;
         }
 
     }

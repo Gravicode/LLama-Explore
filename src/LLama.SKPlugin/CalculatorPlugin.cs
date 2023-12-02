@@ -128,8 +128,6 @@ Question: {{ $input }}
                 {
                     Result = $"Input value [{input}] could not be understood, received following {answer.GetValue<string>()}";
                 }
-                //Console.WriteLine(Result);
-
             }
             catch (Exception ex)
             {
